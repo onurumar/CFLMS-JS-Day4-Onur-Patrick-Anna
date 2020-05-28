@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#circle {
+  width: 30vw;
+  height: 30vh;
+  margin: 10vh auto;
+  border: 2px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#message {
+  text-align: center;
+}

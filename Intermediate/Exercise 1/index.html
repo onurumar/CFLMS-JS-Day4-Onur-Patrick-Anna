@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Intermediate - Exercise 1</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="content">
+      <form id="availability-check" name="availability-check">
+        <label for="hotel-selector">Choose a hotel:</label>
+        <select name="hotel-selector" id="hotel-selector">
+          <option value=""></option>
+        </select>
+        <input type="button" id="check" name="check" value="check availability">
+      </form>
+      <div class="selected-hotel">
+        <h3 id="hotel-name"></h3>
+        <p id="hotel-address"></p>
+        <img id="hotel-image" src="images/placeholder.jpg">
+      </div>
+      <p id="response"></p>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
