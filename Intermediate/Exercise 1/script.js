@@ -30,7 +30,6 @@ document.getElementById("hotel-selector").addEventListener("change", function() 
     document.getElementById("hotel-name").innerHTML = ""
     document.getElementById("hotel-address").innerHTML = ""
     document.getElementById("hotel-image").src = "images/placeholder.jpg"
-    document.getElementById("hotel-image").src = "images/placeholder.jpg"
     document.getElementById("response").innerHTML = ""
     return
   }
